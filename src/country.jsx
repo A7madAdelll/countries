@@ -5,14 +5,14 @@ const Country = (props) => {
     bg = "#223646 ";
     textcolor = "white";
   } else {
-    bg = "#cadff0";
+    bg = "#ffffff";
     textcolor = "black";
   }
 
   return (
     <div
       className="countryInthegrid"
-      style={{ border: `${textcolor} solid 1px` }}
+      style={{ border: `${textcolor} solid 1px`, backgroundColor:bg}}
     >
       <img
         src={(require = props.data.flags.png)}

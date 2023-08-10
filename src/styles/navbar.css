@@ -34,6 +34,10 @@ margin-bottom: 20px;
 display: flex;
 justify-content:center;
 
+align-content: center;
+flex-direction: column;
+
+
 }
 
 .maingrid{
@@ -52,4 +56,9 @@ justify-content:center;
     align-items: center;
     border: #000000 solid 1px;
     text-align: center;
+}
+.mainstream{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
